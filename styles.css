@@ -1,0 +1,21 @@
+h1 {
+    color: red;
+}
+
+nav {
+    display: inline;
+
+}
+
+.services {
+    font-weight: bold;
+}
+
+.lawnmower {
+    display: flex;
+}
+
+.description {
+    display: flex;
+}
+
