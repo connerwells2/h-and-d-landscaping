@@ -1,10 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
 h1 {
-    color: red;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 4rem;
 }
 
 nav {
-    display: inline;
+    background-color: rgb(219, 219, 219);
+}
 
+nav li{
+    float: left;
+    display: inline-block;
+    margin: 10px;
+    padding-top: 400px;
+    text-align: center;
+    text-decoration-color: white;
+    position: relative;
+    bottom: 700px;
+}
+
+a {
+    display: flex;
+    color: white;
+}
+
+img {
+    border: 3px solid black;
+    align-content: center;
+    height: 300px;
 }
 
 .services {
@@ -19,3 +47,47 @@ nav {
     display: flex;
 }
 
+.top-of-page {
+    padding-top: 170px;
+    height: 850px;
+  
+    background: lightgreen url('https://www.chippersinc.com/wp-content/uploads/2019/07/chippers-green-lawn-feature.jpg') no-repeat center;
+    background-size: cover;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(150, 150, 189);
+    padding: 2px;
+}
+
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media (min-width: 789px) {
+
+
+
+
+
+
+
+
+
+}
