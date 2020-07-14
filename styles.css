@@ -5,28 +5,17 @@
 h1 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    font-size: 4rem;
+    color: black;
+    font-size: 40px;
 }
 
 nav {
-    background-color: rgb(219, 219, 219);
-}
-
-nav li{
+    position: fixed;
+    width: 100%;
+    top: 50px;
     float: left;
-    display: inline-block;
-    margin: 10px;
-    padding-top: 400px;
-    text-align: center;
-    text-decoration-color: white;
-    position: relative;
-    bottom: 700px;
-}
-
-a {
-    display: flex;
     color: white;
+
 }
 
 img {
@@ -37,22 +26,6 @@ img {
 
 .services {
     font-weight: bold;
-}
-
-.lawnmower {
-    display: flex;
-}
-
-.description {
-    display: flex;
-}
-
-.top-of-page {
-    padding-top: 170px;
-    height: 850px;
-  
-    background: lightgreen url('https://www.chippersinc.com/wp-content/uploads/2019/07/chippers-green-lawn-feature.jpg') no-repeat center;
-    background-size: cover;
 }
 
 footer {
@@ -67,6 +40,10 @@ html {
 
 img {
     max-width: 100%;
+}
+
+button {
+    text-align: center;
 }
 
 
