@@ -1,1 +1,1 @@
-welcome to my project lol
+My project is a simple landscaping website for my friends' business.
