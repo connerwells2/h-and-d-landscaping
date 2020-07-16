@@ -37,12 +37,19 @@ img {
 
 .services {
     font-weight: bold;
+    font-size: medium;
+}
+
+.servicestitle {
+    margin-left: 5px;
+    margin-top: 5em;
 }
 
 footer {
     text-align: center;
     background-color: rgb(150, 150, 189);
     padding: 2px;
+    margin: 0;
 }
 
 html {
@@ -60,8 +67,8 @@ img {
 
 .aboutus {
     text-align: center;
+    margin: 10px 10px;
 }
-
 
 
 button {
@@ -70,7 +77,12 @@ button {
 
 .contactuslink {
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
+    padding-bottom: 40px;
+}
+
+li:nth-child(odd) {
+    text-decoration: underline;
 }
 
 /* Image SlideShow */
