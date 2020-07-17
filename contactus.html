@@ -20,54 +20,56 @@
 
         <h1>Contact Us!</h1>
 
-        <label for="first-name">First Name:</label>
-        <br>
-        <input type="text" id="first-name" name="user-first-name">
-        <br>
-        <br>
-        <label for="last-name">Last Name:</label>
-        <br>
-        <input type="text" id="last-name" name="user-last-name">
-        <br>
-        <br>
-        <label for="email">Email:</label>
-        <br>
-        <input type="email" id="email" name="user-email">
-        <br>
-        <br>
-        <label for="phone-number">Phone Number:</label>
-        <br>
-        <input type="tel" id="phone-number" name="user-phone-number">
-        <br>
-        <br>
-        <label for="address">Address:</label>
-        <br>
-        <input type="text" id="address" name="user-address">
-        <h3>Select one or more services you would like:</h3>
-        
-        <input type="checkbox" id="mowing" value="mowing">
-        <label for="mowing">Mowing</label><br>
-        
-        <input type="checkbox" id="landscape-maintenance" value="landscape-maintenance">
-        <label for="landscape-maintenance">Landscape Maintenance</label><br>
-        
-        <input type="checkbox" id="hedging" value="hedging">
-        <label for="hedging">Hedging</label><br>
-        
-        <input type="checkbox" id="tree-pruning" value="tree-pruning">
-        <label for="tree-pruning">Tree Pruning</label><br>
-        
-        <input type="checkbox" id="flower-planting" value="flower-planting">
-        <label for="flower-planting">Flower Planting</label><br>
-        
-        <input type="checkbox" id="tree-planting" value="tree-planting">
-        <label for="tree-planting">Tree Planting</label><br>
+        <div class='main-form'>
+            <label for="first-name">First Name:</label>
+            <br>
+            <input type="text" id="first-name" name="user-first-name">
+            <br>
+            <br>
+            <label for="last-name">Last Name:</label>
+            <br>
+            <input type="text" id="last-name" name="user-last-name">
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="user-email">
+            <br>
+            <br>
+            <label for="phone-number">Phone Number (123-456-7890):</label>
+            <br>
+            <input type="tel" id="phone-number" name="user-phone-number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            <br>
+            <br>
+            <label for="address">Address:</label>
+            <br>
+            <input type="text" id="address" name="user-address">
+            <h3>Select one or more services you would like:</h3>
+            
+            <input type="checkbox" id="mowing" value="mowing">
+            <label for="mowing">Mowing</label><br>
+            
+            <input type="checkbox" id="landscape-maintenance" value="landscape-maintenance">
+            <label for="landscape-maintenance">Landscape Maintenance</label><br>
+            
+            <input type="checkbox" id="hedging" value="hedging">
+            <label for="hedging">Hedging</label><br>
+            
+            <input type="checkbox" id="tree-pruning" value="tree-pruning">
+            <label for="tree-pruning">Tree Pruning</label><br>
+            
+            <input type="checkbox" id="flower-planting" value="flower-planting">
+            <label for="flower-planting">Flower Planting</label><br>
+            
+            <input type="checkbox" id="tree-planting" value="tree-planting">
+            <label for="tree-planting">Tree Planting</label><br>
 
 
-        
-        
-        <br>
-        <button type="submit">Submit</button>
+            
+            
+            <br>
+            <button type="submit">Submit</button>
+        </div>
     </form>
 </body>
 
