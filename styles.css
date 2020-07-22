@@ -146,7 +146,8 @@ button {
         width: auto;
         margin-top: 80px;
         display: flex;
-        flex-basis: auto;
+        flex-shrink: 1;
+        width: 100%;
     }
 
 
