@@ -2,12 +2,6 @@
 
 /* Main Content*/
 
-h1 {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
-}
-
 h2 {
     text-decoration: underline;
 }
@@ -32,6 +26,7 @@ a {
     padding: 8px;
     display: inline-block;
 }
+
 
 
 
@@ -62,7 +57,8 @@ html {
 }
 
 img {
-    display: block;
+    display: flex;
+    flex-shrink: auto;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
@@ -76,6 +72,7 @@ img {
 }
 
 /* Link Styles */
+
 
 a:link {
     color: red; 
@@ -91,6 +88,7 @@ a:link {
 
 
 /* Example of nth child */
+
 
 li:nth-child(2n+1) {
     text-decoration: underline;
@@ -131,14 +129,16 @@ button {
 
 
     .main-page-h1 {
-        font-size: 300%;
+        font-size: 270%;
+        display: flex;
+        align-self: auto;
     }
 
     nav {
         display: flex;
         flex-direction: column;
-        margin-left: 230px;
-        font-size: 100px;
+        flex-shrink: 1;
+        font-size: xx-large;
         justify-content: center;
     }
 
@@ -146,12 +146,20 @@ button {
         width: auto;
         margin-top: 80px;
         display: flex;
-        flex-wrap: ;
+        flex-basis: auto;
     }
 
 
+    h2 {
+        display: flex;
+        justify-content: center;
+        padding-right: auto;
+    }
 
+    .aboutus {
+        justify-content: center;
+    }
 
-
+ 
 
 }

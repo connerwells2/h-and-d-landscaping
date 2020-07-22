@@ -1,3 +1,5 @@
+/* E-mail Validation */
+
 function validateEmail() {
     var x = document.forms['contactus.html'] ['email'].value;
     if (x == "a@b.com") {
