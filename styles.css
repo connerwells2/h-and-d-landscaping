@@ -111,6 +111,9 @@ input {
     padding-bottom: 40px;
 }
 
+fieldset {
+    max-width: 50%;
+}
 
 button {
     text-align: center;
@@ -132,10 +135,10 @@ button {
         font-size: 270%;
         display: flex;
         align-self: auto;
+        border-bottom: 10px black;
     }
 
     nav {
-        display: flex;
         flex-direction: column;
         flex-shrink: 1;
         font-size: xx-large;
@@ -157,7 +160,10 @@ button {
         padding-right: auto;
     }
 
-
+    .servicestitle {
+        width: 100%;
+        text-
+    }
 
  
 

@@ -1,10 +1,12 @@
 /* E-mail Validation */
 
-function validateEmail() {
-    var x = document.forms['contactus.html'] ['email'].value;
-    if (x == "a@b.com") {
-        alert("Email must be properly formatted");
+function validateForm() {
+    var x = document.forms['contactForm']['email'].value;
+    if (x == "") {
+        alert("Email must be filled out.");
+        document.getElementById('email').focus;
         return false;
     }
 }
+
 

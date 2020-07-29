@@ -1,25 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"  href="styles.css">
     <link rel="stylesheet"  href="normalize.css">
-    <div class="top-of-page">
-        <title>H and D Landscaping</title>
-        <nav>
-            <a href="index.html">Home</a></li>
-            <a href=#>About</a></li>
-            <a href=#>Contact Us</a></li>
-            <a href=#>Services</a></li>
-        </nav>
-    </div>
+    <title>H and D Landscaping - Contact Us</title>
 </head>
 <body>
-    <form action="index.html" method="POST">
-
-        <h1>Contact Us!</h1>
-
+    <header>
+        <div class="top-of-page">
+            <h1 class="main-page-h1">Contact Us!</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href='#'>About</a>
+                <a href='contactus.html'>Contact Us</a>
+                <a href=#>Services</a>
+            </nav>
+        </div>
+    </header>
+    <h2 id="formHeader">Contact Form</h2>
+    <form name="contactForm" method="post" onsubmit="return validateForm()" aria-describedby="formHeader">
         <div class='main-form'>
             <label for="first-name">First Name:</label>
             <br>
@@ -44,36 +43,36 @@
             <label for="address">Address:</label>
             <br>
             <input type="text" id="address" name="user-address">
-            <h3>Select one or more services you would like:</h3>
-            
-            <input type="checkbox" id="mowing" value="mowing">
-            <label for="mowing">Mowing</label><br>
-            
-            <input type="checkbox" id="landscape-maintenance" value="landscape-maintenance">
-            <label for="landscape-maintenance">Landscape Maintenance</label><br>
-            
-            <input type="checkbox" id="hedging" value="hedging">
-            <label for="hedging">Hedging</label><br>
-            
-            <input type="checkbox" id="tree-pruning" value="tree-pruning">
-            <label for="tree-pruning">Tree Pruning</label><br>
-            
-            <input type="checkbox" id="flower-planting" value="flower-planting">
-            <label for="flower-planting">Flower Planting</label><br>
-            
-            <input type="checkbox" id="tree-planting" value="tree-planting">
-            <label for="tree-planting">Tree Planting</label><br>
+            <br>
+            <br>
+            <fieldset>
+                <legend>Select one or more services you would like:</legend>
 
+                <input type="checkbox" id="mowing" value="mowing" name="services">
+                <label for="mowing">Mowing</label><br>
 
-            
-            
+                <input type="checkbox" id="landscape-maintenance" value="landscape-maintenance" name="services">
+                <label for="landscape-maintenance">Landscape Maintenance</label><br>
+
+                <input type="checkbox" id="hedging" value="hedging" name="services">
+                <label for="hedging">Hedging</label><br>
+
+                <input type="checkbox" id="tree-pruning" value="tree-pruning" name="services">
+                <label for="tree-pruning">Tree Pruning</label><br>
+
+                <input type="checkbox" id="flower-planting" value="flower-planting" name="services">
+                <label for="flower-planting">Flower Planting</label><br>
+
+                <input type="checkbox" id="tree-planting" value="tree-planting" name="services">
+                <label for="tree-planting">Tree Planting</label><br>
+            </fieldset>
             <br>
             <button type="submit">Submit</button>
         </div>
     </form>
+    <footer class="contactus-footer">
+        <p>Copyright © 2020 H and D Landscaping, all rights reserved. Contact: <b>555-555-5555</b></p>
+    </footer>
+    <script src="javascript.js"></script>
 </body>
-
-<footer class="contactus-footer">
-    <p>Copyright © 2020 H and D Landscaping, all rights reserved. Contact: <b>555-555-5555</b></p>
-</footer>
-</html>
+</html> 
