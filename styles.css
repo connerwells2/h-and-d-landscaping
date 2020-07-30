@@ -39,11 +39,11 @@ a {
 .services {
     font-weight: bold;
     margin-left: 5px;
+    list-style-type: none;
 }
 
 .servicestitle {
-    margin-left: 15px;
-    margin-top: 5em;
+    	flex-grow: 1
 }
 
 footer {
@@ -69,7 +69,20 @@ img {
 
 .aboutus {
     text-align: center;
-    margin: 10px 10px;
+	flex-grow: 1;
+}
+
+.rows {
+	flex-direction: row;
+	display:flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.rows div {
+	width: min-content;
+	padding: 15px;
+	text-align: center;
 }
 
 /* Link Styles */
@@ -140,6 +153,8 @@ button {
         justify-content: center;
     }
 
+
+
     .image-top {
         width: auto;
         margin-top: 80px;
@@ -156,12 +171,17 @@ button {
     .services {
         width: 100%;
         text-align: center;
-        list-style: none;
         padding-right: 50px;
     }
 
+
+    
+
+    
+
     .servicestitle {
         text-align: center;
+	
     }
 
     a {
@@ -171,6 +191,7 @@ button {
 
 }
 
+
 @media screen 
 and (min-width: 710px)
 and (max-width: 800px){
@@ -178,4 +199,21 @@ and (max-width: 800px){
     .main-page-h1 {
           font-size: 300%;
       }
+	  
+	  
   }
+
+  @media (max-width: 710px) {
+	.rows {
+		flex-direction: column;
+	}
+	.rows div {
+		width: 100%;
+	}
+} 
+
+
+
+
+
+
